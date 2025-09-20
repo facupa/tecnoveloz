@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+<p> Estrena tu tecnología hoy mismo.</p>    
+</header>
+
+    <nav>
+    <button aria-haspopup="true" aria-expanded="false" id="menuButton" aria-controls="mainMenu">
+        Menú
+    </button>
+    <ul id="mainMenu" role="menu" aria-label="Menú principal" hidden>
+        <li role="none"><a role="menuitem" href="#" aria-label="enlace inicio">Inicio</a></li>
+        <li role="none"><a role="menuitem" href="#" aria-label="Enlace Quienes Somos">Quienes Somos</a></li>
+        <li role="none"><a role="menuitem" href="categorias.html" aria-label="enlace Categoría">Categorias</a></li>
+        <li role="none"><a role="menuitem" href="#" aria-label="enlace Contacto">Contacto</a></li>
+    </ul>
+  <script>
+        const button = document.getElementById('menuButton');
+        const menu = document.getElementById('mainMenu');
+        button.addEventListener('click', () => {
+            const expanded = button.getAttribute('aria-expanded') === 'true';
+            button.setAttribute('aria-expanded', String(!expanded));
+            menu.hidden = expanded;
+        }); 
+</script>
+</nav>    
+
+<footer> © 2025 | . Tecno Veloz Todos los derechos reservados. </footer>
+</body>
+</html>
