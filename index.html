@@ -1,47 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Document</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TecnoVeloz</title>
+  <link rel="icon" href="Imagenes/Logo%20PNG/Tecnoveloz%20Opción%201.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos-del-index.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Zalando+Sans+SemiExpanded:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Estilos CSS/estilos-del-index.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container d-flex align-items-center justify-content-between py-3">
+        <div class="logo">
+          <a href="index.html"><img src="Imagenes/Logo%20PNG/Tecnoveloz%20Opción%201.png" alt="Logo TecnoVeloz" width="120"></a>
+        </div>
 
-</head>
-<body>
-<header>
-<span class="text-bg-light p-3">estrena tu tecnologia hoy mismo</span>    
-</header>
+        <nav class="main-nav" aria-label="Menú principal">
+          <button id="menuButton" class="btn btn-outline-light d-md-none" aria-expanded="false" aria-controls="mainMenu">Menú</button>
+          <ul id="mainMenu" class="nav d-none d-md-flex gap-3" role="menubar">
+            <li class="nav-item" role="none"><a class="nav-link" role="menuitem" href="#">Inicio</a></li>
+            <li class="nav-item" role="none"><a class="nav-link" role="menuitem" href="#">Quiénes Somos</a></li>
+            <li class="nav-item" role="none"><a class="nav-link" role="menuitem" href="categorias.html">Categorías</a></li>
+            <li class="nav-item" role="none"><a class="nav-link" role="menuitem" href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<div clas="logo">
-    <img src="imagenes/iconos png/Tescnofeliz Opción 3.png" alt="Logo de Tecno Veloz" width="2000px" height="4000px">
-</div>
-    <nav>
-    <button class="sticky-sm-bottom" aria-haspopup="true" aria-expanded="false" id="menuButton" aria-controls="mainMenu">
-        Menú
-    </button>
-    <ul id="mainMenu" role="menu" aria-label="Menú principal" hidden " btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <li role="none"><a role="menuitem" href="#" aria-label="enlace inicio">Inicio</a></li>
-        <li role="none"><a role="menuitem" href="#" aria-label="Enlace Quienes Somos">Quienes Somos</a></li>
-        <li role="none"><a role="menuitem" href="categorias.html" aria-label="enlace Categoría">Categorias</a></li>
-        <li role="none"><a role="menuitem" href="#" aria-label="enlace Contacto">Contacto</a></li>
-    </ul>
-  <script>
-        const button = document.getElementById('menuButton');
-        const menu = document.getElementById('mainMenu');
-        button.addEventListener('click', () => {
-            const expanded = button.getAttribute('aria-expanded') === 'true';
-            button.setAttribute('aria-expanded', String(!expanded));
-            menu.hidden = expanded;
-        }); 
-</script>
-</nav>    
+    <main class="container my-5">
+      <h3>TecnoVeloz</h3>
+      <h2 class="mb-4 text-white">Conoce la variedad de nuestros productos destacados</h2>
 
-<footer class="text-black bg-white"> © 2025 | . Tecno Veloz Todos los derechos reservados. </footer>
-</body>
+      <div id="productCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500" aria-label="Carrusel de productos">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+              <div class="card bg-transparent border-0 text-center" style="width: 220px;">
+                <img src="Imagenes/Productos/a2pg.jpg" class="d-block mx-auto carousel-img card-img-top" alt="Auriculares A2PG" loading="lazy">
+                <div class="card-body">
+                  <h5 class="card-title text-white">A2PG</h5>
+                  <p class="card-text text-muted">Diseño cómodo y ligero</p>
+                  <a href="#" class="btn btn-primary btn-sm">Ver producto</a>
+                </div>
+              </div>
+              <div class="card bg-transparent border-0 text-center" style="width: 220px;">
+                <img src="Imagenes/Productos/auricular.jpg" class="d-block mx-auto carousel-img card-img-top" alt="Auricular genérico" loading="lazy">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Auricular</h5>
+                  <p class="card-text text-muted">Auricular estéreo</p>
+                  <a href="#" class="btn btn-primary btn-sm">Ver producto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+              <div class="card bg-transparent border-0 text-center" style="width: 220px;">
+                <img src="Imagenes/Productos/a3.jpg" class="d-block mx-auto carousel-img card-img-top" alt="Producto A3" loading="lazy">
+                <div class="card-body">
+                  <h5 class="card-title text-white">A3</h5>
+                  <p class="card-text text-muted">Calidad garantizada</p>
+                  <a href="#" class="btn btn-primary btn-sm">Ver producto</a>
+                </div>
+              </div>
+              <div class="stacked-images-wrapper w-100 text-center mt-3 mb-3">
+                <img src="Imagenes/Productos/c.png" class="stacked-large-img" alt="Producto C" loading="lazy">
+                <img src="Imagenes/Productos/s2.png" class="stacked-large-img" alt="Silla modelo" loading="lazy">
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeo5sV7Z4l2QvM1z3nZ9z1ZC1qz4kF7n0xw5n0z0i1e8KZ2D" crossorigin="anonymous"></script>
+  </body>
 </html>
+
