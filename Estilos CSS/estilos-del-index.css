@@ -1,0 +1,49 @@
+@import url('Variables-Globales.css');
+h1 {
+    color:var(--rojo);
+
+}
+.logo{
+    text-align: center;
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
+.logo img{
+    width: 200px;
+    height: auto;
+}
+header p {
+    font-size: 1.2em;
+    color: var(--blanco);
+    margin-top: 10px;  
+}
+body{
+    background-color: var(--gris-claro);    
+    font-family: var(--fuente-principal);
+    margin: 0;
+    padding: 0;
+
+}
+.menu button{
+    background-color: var(--rojo);
+    color: var(--blanco);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+.menu button:hover{
+    background-color: var(--rojo-oscuro);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--neg    ro);
+    font-weight: bold; }

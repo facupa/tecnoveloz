@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>Document</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>TecnoVeloz</title>
+    <link rel="shortcut icon" href="Imagenes/Logo PNG/Tecnoveloz Opción 1.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos-del-index.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="Estilos CSS/estilos-del-index.css">
+    
 </head>
 <body>
-<header>
-<span class="badge text-bg-primary">estrena tu tecnologia hoy mismo</span>    
-</header>
+    <header>
+    <span class="badge text-bg-primary">Estrena tu tecnologia hoy mismo</span>    
+    </header>
 
-<div clas="logo">
-    <img src="imagenes/iconos png/Tescnofeliz Opcion1.png" alt="Logo de Tecno Veloz" width="400" height="400">
-</div>
+    <div clas="logo">
+        <img src="Imagenes/Logo PNG/Tecnoveloz Opción 1.png" alt="Logo de Tecno Veloz" width="400" height="400">
+    </div>
     <nav>
-    <button aria-haspopup="true" aria-expanded="false" id="menuButton" aria-controls="mainMenu">
-        Menú
-    </button>
-    <ul id="mainMenu" role="menu" aria-label="Menú principal" hidden " btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <li role="none"><a role="menuitem" href="#" aria-label="enlace inicio">Inicio</a></li>
-        <li role="none"><a role="menuitem" href="#" aria-label="Enlace Quienes Somos">Quienes Somos</a></li>
-        <li role="none"><a role="menuitem" href="categorias.html" aria-label="enlace Categoría">Categorias</a></li>
-        <li role="none"><a role="menuitem" href="#" aria-label="enlace Contacto">Contacto</a></li>
-    </ul>
-  <script>
+        <button aria-haspopup="true" aria-expanded="false" id="menuButton" aria-controls="mainMenu">
+             Menú
+        </button>
+        <ul id="mainMenu" role="menu" aria-label="Menú principal" hidden " btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li role="none"><a role="menuitem" href="#" aria-label="enlace inicio">Inicio</a></li>
+            <li role="none"><a role="menuitem" href="#" aria-label="Enlace Quienes Somos">Quienes Somos</a></li>
+            <li role="none"><a role="menuitem" href="categorias.html" aria-label="enlace Categoría">Categorias</a></li>
+            <li role="none"><a role="menuitem" href="#" aria-label="enlace Contacto">Contacto</a></li>
+        </ul>
+        
+        <script>
         const button = document.getElementById('menuButton');
         const menu = document.getElementById('mainMenu');
         button.addEventListener('click', () => {
@@ -39,8 +40,12 @@
             button.setAttribute('aria-expanded', String(!expanded));
             menu.hidden = expanded;
         }); 
-</script>
-</nav>    
+        </script>
+    </nav>    
+
+
+<!--Srcipts del bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 <footer> © 2025 | . Tecno Veloz Todos los derechos reservados. </footer>
 </body>

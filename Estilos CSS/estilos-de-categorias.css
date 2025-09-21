@@ -1,0 +1,103 @@
+@import url('Variables-Globales.css');
+
+/* Categorías - Variables y cambios del estilo de la página Categorias*/
+.contenedor{
+    background-color: var(--rojo);
+    padding: 3rem 1.5rem;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.header{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+.header-contenido{
+    color: var(--amarillo);
+    font-size: 1.8rem;   
+}
+ .header-contenido span{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+ }
+/*Fin de los cambios del header*/
+/*Variables para la sección de la oferta*/
+.oferta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.7rem;
+    color: var(--alert);
+    margin: 2rem;
+}
+
+/*Variables para las secciones y el contenido*/
+.contenido-seccion{
+    text-align: center;
+}
+.oferta-contenido{
+    word-spacing: 0.5rem;
+    padding: 1rem 0;
+}
+.content-card{
+    background-color: var(--negroAzulado);
+    padding: 3rem 1.5rem;
+    display: grid;
+    justify-content: center;
+    margin: 1rem 0;
+    text-align: center;
+}
+.card-oferta{
+    width: 40rem;
+}
+.titulo-oferta{
+    color: var(--negro);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.contenido-oferta{
+    color: var(--negroAzulado);
+}
+.boton{
+    background-color: var(--amarillo);
+    color: var(--negroAzulado);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+.boton:hover{
+    background-color: var(--alert);
+    color: var(--blanco);
+}
+.no-rebaja{
+    color: gray;
+    text-decoration: line-through;
+}
+.rebaja{
+    color: var(--negro);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+/*Fin de la sección de Oferta*/
+
+/*Seccion de productos*/
+.grid{
+    display: grid;
+    justify-content: center;
+    gap: 3rem;
+}
+.card-producto{
+    max-width: 40rem;
+}
+.info-texto{
+    color: var(--negroAzulado);
+}
+.info-texto span{
+    font-weight: bold;
+    font-size: 1.8rem;
+}

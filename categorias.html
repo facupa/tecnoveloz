@@ -2,22 +2,23 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Gabriel Aquino">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="Estilos CSS/estilos-de-categorias.css">
     <title>Categorias</title>
 </head>
 <body>
     <header>
         <div class="container-fluid contenedor">
-        <h1 class="header">Categorías</h1>
-        <p class="header-contenido">Las mejores ofertas y la mejor calidad en los productos. </p>
-            <span>¡Solo en Tecnoveloz!</span></p>
+        <h1 class="header">Nuestros Productos</h1>
+        <p class="header-contenido">Las mejores ofertas y la mejor calidad en los productos. <span>¡Solo en Tecnoveloz!</span></p>
         </div>
     </header>
+<!--Seccion de Ofertas-->
     <h2 class="oferta">
         Oferta de la Temporada!!
     </h2>
@@ -32,12 +33,262 @@
             <div class="col-xl-6 col-md-5 oferta-imagen"><img class="img-fluid" src="Imagenes/Productos/combos-REDRAGON.jpg" alt="Combo Redragon"></div>
         </div>
     </section>
-    <div class="container">
-        <div class="row">
-            
+    <div class="content-card">
+        <div class="card card-oferta">
+            <div class="card-body">
+                <h4 class="card-title h4 titulo-oferta">REDRADON S143</h4>
+                <p class="card-text contenido-oferta">Oferta de temporada por tiempo limitado. No lo dejes pasar y consiguelo ahora!</p>
+                <p class="no-rebaja"> $ 77.477 </p> <p class="rebaja"> $ 69.000</p>
+                <a href="#" class="btn boton">COMPRAR</a>
+            </div>
         </div>
     </div>
-
+<!--Fin de la seccion de Ofertas-->
+<!--Seccion de Productos-->
+    <h2 class="header mt-4">Productos</h2>
+    <h3 class="header audio" id="audio">Audio</h3>
+<!--Header de los productos de Audio-->
+    <div class="container grid py-4">
+        <div class="card card-producto">
+            <img class="card-img-top" src="Imagenes/Productos/Audio/Auricular Monster/Monster XKT10 -1.webp" alt="Auricular Monster SKT10">
+            <div class="card-body">
+            <!--Informacion del producto...-->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 class="accordion-header ">
+                    <button class="accordion-button collapsed titulo-oferta" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Monster SKT10
+                    </button>
+                    </h3>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p class="card-text info-texto">Especificaciones del producto:</p>
+                        <p class="card-text info-texto">Nombre del producto: Monster XKT10 
+                                                        <br>Versión Bluetooth: Bluetooth 5.2
+                                                        <br>Tipo de producto: Auricular
+                                                        <br>Distancia de transmisión: 10M
+                                                        <br>Capacidad del auricular: 30mAh*2
+                                                        <br>Capacidad del estuche de carga: 300mAh
+                                                        <br>Sistemas operativos aplicables: ios/android/windows
+                                                        
+                                                        <br>Precio: <span>$56.700</span>
+                                                    </p>
+                        <a href="#" class="btn boton">COMPRAR</a>   
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--Fin de la informacion del producto...-->
+        </div>
+    </div>
+        <div class="card card-producto">
+            <img class="card-img-top" src="Imagenes/Productos/Audio/Aorus/Aorus H1 - 1.webp" alt="Auriculares Aorus">
+            <div class="card-body">
+            <!--Informacion del producto...-->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h3 class="accordion-header ">
+                    <button class="accordion-button collapsed titulo-oferta" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Aorus H1
+                    </button>
+                    </h3>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p class="card-text info-texto">Especificaciones del producto:</p>
+                        <p class="card-text info-texto">Modelo: Aorus H1
+                                                        <br>Sonido: Surround 7.1 (Virtual)
+                                                        <br>Luz de Fondo: RGB
+                                                        <br>Respuesta de Frecuencia: 20 Hz - 20 KHz
+                                                        <br>Tamaño del Altavoz: 50 mm
+                                                        <br>Sensibilidad del Altavoz: 125 dB ± 3 dB
+                                                        <br>Impedancia del Altavoz: 32 ohmios
+                                                        <br>Tipo de Micrófono: Omnidireccional
+                                                        <br>Tamaño del Micrófono: 6x5 mm
+                                                        <br>Sensibilidad del Micrófono: -42 dB ± 2 dB
+                                                        <br>Conectores: USB
+                                                        <br>Longitud del Cable: 2,2 metros
+                                                        <br>Precio: <span>$255.000</span></p>
+                        <a href="#" class="btn boton">COMPRAR</a>   
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--Fin de la informacion del producto...-->
+            </div>
+        </div>
+        <div class="card card-producto">
+            <img class="card-img-top img-fluid" src="Imagenes/Productos/Audio/Lenovo/Lenovo ThinksPLus - 1.webp" alt="">
+            <div class="card-body">
+            <!--Informacion del producto...-->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header ">
+                        <button class="accordion-button collapsed titulo-oferta" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Lenovo ThinkPLus
+                        </h3>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                        <p class="card-text info-texto">Especificaciones del producto:</p>
+                        <p class="card-text info-texto"> Versión de Bluetooth: 5.3
+                                                        <br>Alcance: 10 metros
+                                                        <br>Diámetro del controlador: 13 mm
+                                                        <br>Bocinas: Personalizadas con optimización de graves, altos y medios
+                                                        <br>Diafragma: De metal para mejorar la calidad de sonido
+                                                        <br>Respuesta de frecuencia: 20hz-20 kHz
+                                                        <br>Sensibilidad de micrófono: -40dB +/- 3dB
+                                                        <br>Tiempo de reproducción: hasta 4 horas
+                                                        <br>Tiempo de carga: hasta 1.5 horas
+                                                        <br>Precio: <span>$43.999</span></p>
+                        <a href="#" class="btn boton">COMPRAR</a>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--Fin de la informacion del producto...-->
+            </div>
+        </div>
+    </div>
+    <h3 class="header audio" id="teclados">Teclados</h3>
+<!--Header de los productos de Teclado-->
+    <div class="container grid py-4">
+        <div class="card card-producto">
+            <img class="card-img-top img-fluid" src="Imagenes/Productos/Teclados/Teclado MadKat - Yellow - 2.webp" alt="Teclado MadKat-Amarillo">
+            <div class="card-body">
+    <!--Informacion del producto...-->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                    <h3 class="accordion-header ">
+                    <button class="accordion-button collapsed titulo-oferta" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    MadKat Keyboard - Yellow
+                    </button>
+                    </h3>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p class="card-text info-oferta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos labore autem voluptate id provident voluptatibus quas, rerum similique ipsum eius libero? Corporis blanditiis illo quaerat praesentium porro rem amet!</p>
+                            <a href="#" class="btn boton">COMPRAR</a>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!--Fin de la informacion del producto...-->  
+            </div>
+        </div>
+        <div class="card card-producto">
+            <img class="card-img-top img-fluid" src="Imagenes/Productos/Teclados/Teclado gaming Asus.webp" alt="Teclado Asus Gaming">
+            <div class="card-body">
+    <!--Informacion del producto...-->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                    <h3 class="accordion-header ">
+                    <button class="accordion-button collapsed titulo-oferta" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Teclado Gaming  - Asus
+                    </button>
+                    </h3>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p class="card-text info-oferta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos labore autem voluptate id provident voluptatibus quas, rerum similique ipsum eius libero? Corporis blanditiis illo quaerat praesentium porro rem amet!</p>
+                            <a href="#" class="btn boton">COMPRAR</a>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!--Fin de la informacion del producto...--> 
+            </div>
+        </div>
+        <div class="card card-producto">
+            <img class="card-img-top img-fluid" src="Imagenes/Productos/Teclados/Teclado Redragon-Dyaus.webp" alt="Teclado Redragon-Dyaus">
+            <div class="card-body">
+    <!--Informacion del producto...-->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                    <h3 class="accordion-header ">
+                    <button class="accordion-button collapsed titulo-oferta" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    Teclado Redragon - Dyaus
+                    </button>
+                    </h3>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p class="card-text info-oferta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos labore autem voluptate id provident voluptatibus quas, rerum similique ipsum eius libero? Corporis blanditiis illo quaerat praesentium porro rem amet!</p>
+                            <a href="#" class="btn boton">COMPRAR</a>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!--Fin de la informacion del producto...--> 
+            </div>
+        </div>
+    </div>
+    <h3 class="header audio" id="monitores">Monitores</h3>
+<!--Header de los productos de Monitores-->
+    <div class="container grid py-4">
+        <div class="card card-producto">
+            <img class="card-img-top img-fluid" src="Imagenes/Productos/Monitores/Monitor Lg 24-Led - 1.webp" alt="Monitor LG-24">
+            <div class="card-body">
+    <!--Informacion del producto...-->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                    <h3 class="accordion-header ">
+                    <button class="accordion-button collapsed titulo-oferta" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                    Monitor LG - Led 24"
+                    </button>
+                    </h3>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p class="card-text info-oferta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos labore autem voluptate id provident voluptatibus quas, rerum similique ipsum eius libero? Corporis blanditiis illo quaerat praesentium porro rem amet!</p>
+                            <a href="#" class="btn boton">COMPRAR</a>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!--Fin de la informacion del producto...--> 
+            </div>
+        </div>
+        <div class="card card-producto">
+            <img class="card-img-top img-fluid" src="Imagenes/Productos/Monitores/Monitor Samsung 24 -1.webp" alt="Monitor Samsung 24">
+            <div class="card-body">
+    <!--Informacion del producto...-->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                    <h3 class="accordion-header ">
+                    <button class="accordion-button collapsed titulo-oferta" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                    Monitor Led - Samsung 24" 
+                    </button>
+                    </h3>
+                    <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p class="card-text info-oferta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos labore autem voluptate id provident voluptatibus quas, rerum similique ipsum eius libero? Corporis blanditiis illo quaerat praesentium porro rem amet!</p>
+                            <a href="#" class="btn boton">COMPRAR</a>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!--Fin de la informacion del producto...--> 
+            </div>
+        </div>
+        <div class="card card-producto">
+            <img class="card-img-top img-fluid" src="Imagenes/Productos/Monitores/Monitor-Asus-24.webp" alt="Monitor Asus 24">
+            <div class="card-body">
+    <!--Informacion del producto...-->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                    <h3 class="accordion-header ">
+                    <button class="accordion-button collapsed titulo-oferta" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                    Monitor Gaming - Asus 24"
+                    </button>
+                    </h3>
+                    <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p class="card-text info-oferta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos labore autem voluptate id provident voluptatibus quas, rerum similique ipsum eius libero? Corporis blanditiis illo quaerat praesentium porro rem amet!</p>
+                            <a href="#" class="btn boton">COMPRAR</a>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!--Fin de la informacion del producto...--> 
+            </div>
+        </div>
+    </div>
+<!--Fin de la seccion de Productos-->
     <!--fin del contenido de la página e inicio de los scripts de bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
